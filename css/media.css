@@ -1,0 +1,481 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    /* header start */
+    .logo {
+        padding-top: 20px;
+    }
+    .logo a img {
+        width: 20%;
+    }
+    .menu ul li a {
+        font-size: 13px;
+    }
+    
+    /* header end */
+     /* banner start */
+     .banner h1 {
+        font-size: 80px;
+        margin-bottom: -17px;
+        margin-top: -20px;
+    }
+    .banner p {
+            padding: 0px 8px;
+            font-size: 15px;
+    }
+    .banner button {
+        height: 30px;
+        margin: 0px 0 25px;
+        width: 120px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+     /* banner end */
+         /* popular start */
+         .p_text h1 {
+            font-size: 60px;
+            padding-top: 30px;
+        }
+         .p-text h1 {
+            font-size: 50px;
+        }
+        .p_text p {
+            font-size: 18px;
+            padding: 0px 0px;
+        }
+        .p-text p {
+            margin-bottom: 20px;
+            padding: 0 0px;
+            font-size: 16px;
+        }
+        .p-img {
+            margin-bottom: -25px;
+            margin-top: 30px;
+        }
+        .p-img img{
+        width: 60%;    
+        }
+         /* popular end */
+         /* our start */
+         .p-text h1 {
+            font-size: 23px;
+        }
+        .p-img {
+            margin-bottom: 11px;
+        }
+        .p_img {
+            padding-bottom: 40px;
+        }
+        .p-text p {
+            margin-bottom: 50px;
+        }
+        .o-text h1 {
+            margin-bottom: 7px;
+        }
+        /* our end */
+          /* menu start */
+          .omenu{
+            text-align: center;
+         }
+         .m_text {
+            margin-bottom: 40px;
+        }
+         .m_text p {
+            padding-bottom: 20px;
+        }
+          /* menu end */
+    
+         /* menu end */
+         
+         /* pasta start */
+
+    .pasta_text p {
+        font-size: 14px;
+    }
+                
+    .pasta_text {
+        padding: 80px 0px 60px 0px;
+    }
+    .pasta_text h1 {
+         font-size: 20px;
+    }
+    .pasta_text button {
+        height: 26px;
+        font-size: 10px;
+        font-weight: 400;
+        width: 88px;
+    }
+                /* pasta end */
+                /* package start */
+    .c_card{
+        padding-bottom: 40px;
+        }
+    .c_img {
+        padding-top: 40px;
+        margin-bottom: 30px;
+    }
+    .p_text p {
+        font-size: 15px;
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+    .p_text h1 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .single {
+        margin-top: 15px;
+    }
+
+    .c_text p { 
+        font-size: 16px;
+        padding: 5px 4px 7px;
+    }
+    .c_text h1 {
+        font-size: 32px;
+    }
+    .c_text button a {
+        font-size: 14px;
+    }
+    .c_text button {
+        height: 40px;
+        width: 210px;
+
+    }
+
+                /* package end */
+                   /* slider start */
+   .s_item p {
+        font-size: 15px;
+        padding: 0px 10px;
+        margin: 25px 0 0;
+}
+    .s_item h1 {
+        font-size: 30px;
+        padding: 20px 0px 50px;
+    }
+    .s_item img {
+        margin-top: 40px;
+    }
+    /* slider end */
+      /* subs start */
+      .mar {
+        margin-top: -10px;
+    }
+      .butn {
+        font-size: 14px;
+        font-weight: 400;
+        height: 40px;
+        width: 98px;
+    }
+      .em {
+        margin-left: 3px;
+        width: 230px;
+        height: 40px;
+    }
+    .mar{
+        margin-bottom: 40px;
+    }
+    /* subs end*/
+        /* footer start */
+        .f_item {
+            padding-top: 40px; 
+            padding-bottom: 60px; 
+        }
+        .f_text p {
+            font-size: 14px;
+        }
+        .f_links p a{
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .f_links h2 {
+            font-size: 20px;
+        }
+        .f_text h2 {
+            font-size: 20px;
+        }
+        /* footer end */
+
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start */
+    .logo {
+        padding-top: 30px;
+    }
+    .logo a img {
+        width: 19%;
+    }
+    .menu ul li a {
+        font-size: 15px;
+    }
+    /* header end */
+     /* banner start */
+     .banner h1 {
+        font-size: 100px;
+    }
+    .banner p {
+        padding: 0px 80px;
+        font-size: 16px;
+    }
+    .banner button {
+        height: 35px;
+        margin: 5px 0 30px;
+        width: 170px;
+    }
+     /* banner end */
+        /* popular start */
+        .p_text h1 {
+            font-size: 80px;
+            padding-top: 40px;
+        }
+        .p_img {
+            padding-bottom: 60px;
+        }
+         .p-text h1 {
+            font-size: 50px;
+        }
+        .p_img {
+            padding-bottom: 60px;
+        }
+
+        .p_text p {
+            font-size: 18px;
+            padding: 0px 60px;
+        }
+        .p-text p {          
+            margin-bottom: 40px;
+            padding: 0 100px;
+            font-size: 17px;
+        }
+        .p-img {
+            margin-bottom: -25px;
+            margin-top: 30px;
+        }
+        .p-img img{
+        width: 60%;    
+        }
+         /* popular end */
+         /* our start */
+     .o-text h1 {
+        font-size: 35px;
+    }
+    .o-text p {
+        font-size: 22px;
+        padding-bottom: 90px;
+    }
+    /* our end */
+         /* menu start */
+    .omenu{
+            text-align: center;
+    }
+    .m_text {
+        margin-bottom: 60px;
+    }
+    .m_text p {
+            padding-bottom: 30px;
+    }
+          /* menu end */
+    .pasta_text p {
+        font-size: 17px;
+    }
+        
+    .pasta_text {
+        padding: 150px 35px 120px 35px;
+    }
+    .pasta_text h1 {
+        font-size: 42px;
+    }
+    .pasta_text button {
+        width: 160px;
+    }
+        /* pasta end */
+         /* package start */
+    .c_card{
+        padding-bottom: 60px;
+    }
+    .c_text h1 {
+        font-size: 38px;   
+    }
+    
+    .c_text button {
+        margin-bottom: 35px;
+        height: 50px;
+        width: 280px;
+    }
+    .ct{
+        padding: 0 60px;
+    }
+    .p_text h1 {
+        font-size: 60px;
+    }
+    .p_text p {
+        font-size: 16px;
+        padding: 0px 0px;
+    }
+    /* package end */
+       /* slider start */
+       .s_item p {
+        font-size: 20px;
+        padding: 0px 66px;
+        margin: 40px 0 0;
+    }
+    .s_item h1 {
+        padding: 20px 0px 80px;
+    }
+    .s_item img {
+        margin-top: 60px;
+    }
+    /* slider end */
+    /* subs start */
+    .em {
+        margin-left: 6px;
+    }
+    .mar{
+    margin-bottom: 60px;
+}
+    /* subs end*/
+    /* footer start */
+    .f_item {
+        padding-top: 60px; 
+        padding-bottom: 80px; 
+    }
+    /* footer end */
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+       /* header start */
+    .menu ul li a {
+        font-size: 18px;
+    }
+      /* header end */
+    /* banner start */
+    .banner h1 {
+        font-size: 150px;
+    }
+    .banner p {   
+         padding: 0px 110px;
+    }
+
+     /* banner end */
+     /* popular start */
+     .p_text h1 {
+        font-size: 95px;
+        padding-top: 50px;
+    }
+    .p-text h1 {
+        font-size: 40px;
+    }
+    .p_text p {
+        padding: 0px 60px;
+    }
+    .p-text p {
+        font-size: 17px;
+    }
+    .p-img {
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+     /* popular end */
+     /* our start */
+     .o-text h1 {
+        font-size: 35px;
+        margin-bottom: 13px;
+    }
+    
+    .o-img img {
+    margin-bottom: -122px;
+     }
+     .o-text p {
+        padding-bottom: 90px;
+    }
+    /* our end */
+
+    /* menu start */
+    .m-text p {
+        padding-bottom: 50px;
+    }
+    /* menu end */
+    /* pasta start */
+    .pasta_text{
+        padding: 200px 55px 144px 55px;
+    
+     }
+    .pasta_text h1 {
+        font-size: 53px;
+
+    }
+    .pasta_text button {
+        width: 180px;
+    }
+    /* pasta end */
+    /* package start */
+    .c_text h1 {
+        font-size: 36px;
+    }
+    .c_text button {
+        height: 35px;
+        width: 190px;
+    }
+    /* package end */
+    /* slider start */
+    .s_item p {
+        padding: 0px 120px;
+        margin: 40px 0 0;
+    }
+    .s_item h1 {
+        padding: 24px 0px 90px;
+    }
+    /* slider end */
+    /* subs start */
+    .em {
+        margin-left: 0px;
+    }
+    /* subs end*/
+    /* footer start */
+    .f_links p a{
+
+        line-height: 25px;
+    }
+        /* footer start */
+
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+     /* our start */
+    .o-img img {
+        margin-bottom: -215px;
+    }
+    /* subs start */
+    .em {
+        margin-left: 180px;
+    }
+}
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    /* our start */
+    .o-img img {
+        margin-bottom: -233px;
+    }
+    /* sldier start */
+    .s_item h1 {
+        padding: 70px 0px 191px;
+    }
+     /* subs start */
+     .em {
+        margin-left: 230px;
+    }
+
+}

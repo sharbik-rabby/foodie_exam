@@ -1,0 +1,440 @@
+/* fonts start */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/* fonts end */
+/* common start */
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: auto!important; overflow-x: hidden!important
+}
+/* common end */
+/* header start */
+html {
+    overflow-x: hidden;
+  }
+header{
+   background-image:url(../img/bg/1.jpg); 
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
+   background-color: #f64a52;
+   background-blend-mode: multiply;
+   
+}
+
+.logo{
+    padding-top: 40px;
+
+}
+
+.logo a{
+
+}
+
+.logo a img{
+    width: 13%;
+}
+
+.menu {
+  
+}
+.menu ul {
+  list-style: none;
+
+}
+    
+.menu ul li {
+  display: inline-block;
+  padding: 3px;
+}
+.menu ul li a {
+    font-size: 20px;
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    transition: .2s;
+  }
+  .menu ul li a:hover{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+  /* header end */
+  /* banner start */
+.banner{
+    color: #ffffff;
+}
+.banner h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 170px;
+    margin-bottom: -20px;
+}
+.banner p{
+    padding: 0px 250px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.banner button {
+    height: 45px;
+    margin: 10px 0 86px;
+    font-weight: 700;
+    width: 220px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-radius: 23px;
+}
+.banner button a{
+    color: #e8565e;
+    text-decoration: none; 
+    transition: .3s;
+}
+.banner button a:hover{
+    color: black;
+
+}
+.banner button:hover{
+    background-color: #ffffff;
+    color:black;
+}
+
+  /* banner end*/
+  /* popular start */
+.popular{
+    background-image:url(../img/bg/2.jpg); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+}
+.p_text{
+
+}.p_text h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    padding-top: 55px;
+    color: #e8565e;
+}
+.p_text p {
+    font-size: 20px;
+    padding: 0 200px;
+    line-height: 25px;
+}
+.p_img {
+    padding-bottom: 80px;
+}
+/* single item start */
+
+.p-img {
+    margin-bottom: -25px;
+    margin-top: 35px;
+    padding: 30px;
+}
+.p-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-text{}
+.p-text h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 55px;
+    padding-top: 5px;
+    color: #e8565e;
+} 
+.p-text p{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+ /* single item end */
+  /* popular end */
+
+  /* our start */
+.our{
+    background-image:url(../img/bg/3.jpg); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: #f64a52;
+    background-blend-mode: multiply;
+}
+.o_text{
+    color: #ffffff;
+}
+.o_text h1{
+    padding-top: 60px;
+    color: #ffffff;
+}
+.o-img{}
+.o-img img{
+    margin-bottom: -180px;
+}
+.o-text{
+    color: #ffffff;
+}
+.o-text h1{
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff; 
+}
+.o-text p{
+    padding-bottom: 150px;
+    font-size: 35px;
+    font-weight: 500;    
+}
+  /* our end */
+
+  /* menu start */
+.omenu{
+    background-color: #eee6cc;
+}
+
+.m-text p {
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+.m_icon {
+    padding-top: 15px;
+}
+.m_icon img{
+    
+}
+.m_text {
+    margin-bottom: 80px;
+}
+.m_text h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+    color: #e8565e;
+}
+.m_text p {
+    line-height: 20px;
+}
+
+
+ /* pasta start */
+.pasta{
+
+}
+.pasta1{
+    background-image:url(../img/bg/4.jpg); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: #f64a52;
+    background-blend-mode: multiply;
+
+}
+.pasta2{
+    background-color: #faf5e4;
+    
+}
+.pasta_text{
+    align-items: center;
+    text-align: left;
+    padding: 200px 0px 144px 75px;
+
+ }
+.pasta_text h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 70px;
+    padding-top: 55px;
+    color: #e8565e;
+}
+.pasta_text p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.pasta_text button {
+    height: 45px;
+    margin: 10px 0 86px;
+    font-weight: 700;
+    width: 220px;
+    text-transform: uppercase;
+    background-color: #eb4d55;
+    border-radius: 23px;
+}
+.pasta_text button a{
+    color: #ffffff;
+    text-decoration: none; 
+    transition: .3s;
+}
+.pt_btn:hover .p_btn{
+
+    background-color: #ffffff;
+}
+.pt_btn:hover .p_a{
+    font-weight: 700;
+    color: black;
+}
+
+ /* pasta end*/
+ /* package start */
+ .package{
+    background-color: #eee6cc;
+ }
+ .pack_text{}
+ .pack_text h1 {
+    font-size: 86px;
+    margin-bottom: 15px;
+}
+ .pack_text p{
+    padding: 0 191px;
+ }
+ /* card */
+ .c_card {
+    padding-bottom: 80px;
+}
+.single {
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: #faf5e4;
+}
+.c_img {
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.c_text{}
+.c_text h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+    color: #e8565e;
+}
+.c_text p {
+    padding: 5px 4px 7px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.c_text button {
+    height: 45px;
+    margin-bottom: 20px;
+    background-color: #e8565e;
+    width: 230px;
+    border-radius: 23px;
+ 
+}
+.c_text button a{
+    text-decoration: none;
+    color: #ffffff;
+  
+}
+.cc_btn:hover .c_btn{
+    background-color: #ffffff;
+}
+.cc_btn:hover .c_a{
+    font-weight: 700;
+    color: black;
+}
+
+
+/* card */
+ /* package end */
+
+/* slider start */
+.slider{
+
+}
+.s_item{}
+.s_item img {
+    width: 25%;
+    margin-top: 90px;
+}
+.s_item p {
+    padding: 0px 220px;
+    margin: 40px 0 -20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.s_item h1{
+    background-image:url(../img/bg/5.jpg); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 70px 0px 110px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+    color: #e8565e;
+}
+
+/* slider end */
+
+/* subs start */
+.sub{
+    background-color: #faf5e4;
+}
+.mar{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.em {
+    border: none;
+    margin-left: 100px;
+    border-radius: 25px;
+    width: 412px;
+    height: 42px;
+}
+.butn{
+    margin: 0 0 0 -55px;
+    font-weight: 700;
+    color: #ffffff;
+    height: 42px;
+    width: 130px;
+    background-color: #e8565e;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+::placeholder{
+    padding-left: 15px;
+}
+.butn:hover{
+    background-color: #e8565e;
+    color: black;
+}
+/* subs end*/
+/* footer start */
+footer{
+    background-color: #2a2a2a;
+    color: #ffffff;
+}    
+.f_item {
+    padding-top: 80px; 
+    padding-bottom: 100px; 
+}
+.f_text{
+    
+}
+.f_text h2{
+    margin-top: 15px;
+    font-family: 'Grand Hotel', cursive;
+}
+.f_text p{
+    font-family: 'Nunito', sans-serif;
+}
+.f_links{}
+.f_links h2{
+    margin-top: 15px;
+    font-family: 'Grand Hotel', cursive;
+}
+.f_links p{
+    font-family: 'Nunito', sans-serif;
+    
+}
+.f_links p a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+/* footer end */
+
+
+
+   
+
+
+
+
